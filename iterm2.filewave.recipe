@@ -33,6 +33,9 @@
 			<key>Processor</key>
 			<string>PkgRootCreator</string>
 		</dict>
+		<key>Arguments</key>
+			<key>Processor</key>
+			<string>Unarchiver</string>
 		<dict>
 			<key>Arguments</key>
 			<dict>
@@ -56,7 +59,7 @@
 				<key>fw_fileset_name</key>
 				<string>%NAME% - %version%</string>
 				<key>fw_import_source</key>
-				<string>%pkgroot%/Applications/%app_name%</string>
+				<string>%pkgroot%/Applications/%APPNAME%</string>
 			</dict>
 			<key>Processor</key>
 			<string>com.github.autopkg.filewave.FWTool/FileWaveImporter</string>
