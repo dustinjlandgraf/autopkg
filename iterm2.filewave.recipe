@@ -33,9 +33,11 @@
 			<key>Processor</key>
 			<string>PkgRootCreator</string>
 		</dict>
-		<key>Arguments</key>
-			<key>Processor</key>
-			<string>Unarchiver</string>
+		<dict>
+			<key>Arguments</key>
+				<key>Processor</key>
+				<string>Unarchiver</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
