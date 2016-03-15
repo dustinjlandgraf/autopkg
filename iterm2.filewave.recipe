@@ -10,6 +10,8 @@
 	<dict>
 		<key>NAME</key>
 		<string>iTerm2</string>
+		<key>NAME</key>
+		<string>iTerm2</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
@@ -35,7 +37,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>destination_path</key>
-				<string>%pkgroot%/Applications/%app_name%</string>
+				<string>%NAME%/Applications/%app_name%</string>
 				<key>source_path</key>
 				<string>%pathname%/%app_name%</string>
 			</dict>
